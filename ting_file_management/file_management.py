@@ -1,6 +1,7 @@
 import os
 import sys
 
+
 def txt_importer(path_file):
 
     # Verifica se a extensão é .txt

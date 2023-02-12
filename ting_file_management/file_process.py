@@ -1,5 +1,5 @@
 from ting_file_management.file_management import txt_importer
-from queue import Queue
+
 
 def process(path_file, instance):
     file_content = txt_importer(path_file)
@@ -28,7 +28,6 @@ def remove(queue):
     else:
         file = queue.dequeue()
         print(f"Arquivo {file['nome_do_arquivo']} removido com sucesso")
-
 
 
 def file_metadata(instance, position):
