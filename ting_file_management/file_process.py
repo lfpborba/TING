@@ -1,5 +1,4 @@
 from ting_file_management.file_management import txt_importer
-import os
 import sys
 
 

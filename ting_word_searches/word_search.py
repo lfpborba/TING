@@ -1,5 +1,6 @@
 from ting_file_management.queue import Queue
 
+
 def exists_word(word: str, instance: Queue) -> list:
     case_insensitive_word = word.lower()
     words_list = []
